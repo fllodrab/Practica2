@@ -28,5 +28,34 @@ apt-get install language-pack-es
 Con esto hemos completado la distribución e instalado un paquete de idiomas para que soporte el español.
 Ahora que tenemos nuestra distribución configurada correctamente tenemos que instalar las herramientas que harán falta
 para nuestra aplicación.
+Vamos a necesitar instalar 'python' y 'python-web2py'
+
+```
+apt-get install python
+apt-get install python-web2py
+```
+
+Estoy teniendo problemas a la hora de ejecutar mi aplicación y me doy cuenta de que por algún casual el paquete 'python-web2py' 
+no funciona correctamente, asique procedo a descargarmelo desde los repositorios 'github'. Para ello seguimos los siguientes
+comandos:
+
+```
+apt-get install git
+git clone git://github.com/webpy/webpy.git
+cd webpy/
+python setup.py install 
+```
+Ya lo tenemos instalado.
+
+Ahora copiamos el formulario (que está en la máquina anfitriona) a la carpeta /home/jaulas/debian/home/webpy/web
+`sudo cp formulario.py /home/jaulas/debian/home/` y ejecutamos la aplicación con `python formulario.py` .
+
+![imagen1_p2](https://dl.dropboxusercontent.com/s/dacay8jzpp2x4x3/practica2_1.png)
+![imagen2_p2](https://dl.dropboxusercontent.com/s/udaarjg5hio53zm/practica2_2.png)
+
+Vemos que funciona perfectamente.
+
+
+
 
 
