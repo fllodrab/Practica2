@@ -53,9 +53,13 @@ Ahora copiamos el formulario (que está en la máquina anfitriona) a la carpeta 
 ![imagen1_p2](https://dl.dropboxusercontent.com/s/dacay8jzpp2x4x3/practica2_1.png)
 ![imagen2_p2](https://dl.dropboxusercontent.com/s/h5ozlmrc9hvs7x4/Practica2_im2.png)
 
-Vemos que funciona perfectamente.
+Vemos que funciona perfectamente. Pero queda algo poco visual, asique vamos a intentar darle un poco de 'maquillaje' con
+un css simple. Copio mi carpeta 'static' donde estan los css que necesito al directorio donde está el formulario con 
+`sudo cp -r static/ /home/jaulas/debian/home/webpy/web/`
 
+Y ejecutamos de nuevo el formulario y vemos que ya queda algo mejor
 
+![imagen3_p2](https://dl.dropboxusercontent.com/s/rmnlp09nioje4dm/practica2_3.png)
 
 
 
