@@ -56,6 +56,6 @@ Ahora copiamos el formulario (que está en la máquina anfitriona) a la carpeta 
 Vemos que funciona perfectamente.
 
 
-sd
+
 
 
