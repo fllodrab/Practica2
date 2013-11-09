@@ -51,7 +51,7 @@ Ahora copiamos el formulario (que está en la máquina anfitriona) a la carpeta 
 `sudo cp formulario.py /home/jaulas/debian/home/` y ejecutamos la aplicación con `python formulario.py` .
 
 ![imagen1_p2](https://dl.dropboxusercontent.com/s/dacay8jzpp2x4x3/practica2_1.png)
-![imagen2_p2](https://dl.dropboxusercontent.com/s/udaarjg5hio53zm/practica2_2.png)
+![imagen2_pp2](https://dl.dropboxusercontent.com/s/udaarjg5hio53zm/practica2_2.png)
 
 Vemos que funciona perfectamente.
 
